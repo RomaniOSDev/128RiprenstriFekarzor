@@ -2,8 +2,7 @@
 //  SceneDelegate.swift
 //  128RiprenstriFekarzor
 //
-//  Created by Роман Главацкий on 03.04.2026.
-//
+
 
 import UIKit
 import SwiftUI
