@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30CB34C12F8CC56500699281 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB34BC2F8CC56500699281 /* PersistenceManager.swift */; };
+		30CB34C22F8CC56500699281 /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB34BE2F8CC56500699281 /* SaveService.swift */; };
+		30CB34C32F8CC56500699281 /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB34BF2F8CC56500699281 /* StartMainView.swift */; };
+		30CB34C42F8CC56500699281 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB34BB2F8CC56500699281 /* AppRouter.swift */; };
+		30CB34C52F8CC56500699281 /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB34BD2F8CC56500699281 /* PrivacyWebView.swift */; };
 		746AFFC02F7FC8CA0076A047 /* PrimaryGameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AFF872F7FC8CA0076A047 /* PrimaryGameButton.swift */; };
 		746AFFC12F7FC8CA0076A047 /* AchievementBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AFF892F7FC8CA0076A047 /* AchievementBanner.swift */; };
 		746AFFC22F7FC8CA0076A047 /* StarRatingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AFF8A2F7FC8CA0076A047 /* StarRatingViews.swift */; };
@@ -43,6 +48,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30CB34BB2F8CC56500699281 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		30CB34BC2F8CC56500699281 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		30CB34BD2F8CC56500699281 /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		30CB34BE2F8CC56500699281 /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		30CB34BF2F8CC56500699281 /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		746AFC272F7FB0610076A047 /* 128RiprenstriFekarzor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 128RiprenstriFekarzor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746AFF872F7FC8CA0076A047 /* PrimaryGameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryGameButton.swift; sourceTree = "<group>"; };
 		746AFF892F7FC8CA0076A047 /* AchievementBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBanner.swift; sourceTree = "<group>"; };
@@ -94,6 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30CB34C02F8CC56500699281 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				30CB34BB2F8CC56500699281 /* AppRouter.swift */,
+				30CB34BC2F8CC56500699281 /* PersistenceManager.swift */,
+				30CB34BD2F8CC56500699281 /* PrivacyWebView.swift */,
+				30CB34BE2F8CC56500699281 /* SaveService.swift */,
+				30CB34BF2F8CC56500699281 /* StartMainView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		746AFC1E2F7FB0610076A047 = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +331,7 @@
 				746AFFBC2F7FC8CA0076A047 /* Main.storyboard */,
 				746AFFBD2F7FC8CA0076A047 /* SceneDelegate.swift */,
 				746AFFBE2F7FC8CA0076A047 /* ViewController.swift */,
+				30CB34C02F8CC56500699281 /* Router */,
 			);
 			path = 128RiprenstriFekarzor;
 			sourceTree = "<group>";
@@ -456,6 +479,11 @@
 				746AFFDA2F7FC8CA0076A047 /* AppDelegate.swift in Sources */,
 				746AFFDB2F7FC8CA0076A047 /* ContentView.swift in Sources */,
 				746AFFDC2F7FC8CA0076A047 /* SceneDelegate.swift in Sources */,
+				30CB34C12F8CC56500699281 /* PersistenceManager.swift in Sources */,
+				30CB34C22F8CC56500699281 /* SaveService.swift in Sources */,
+				30CB34C32F8CC56500699281 /* StartMainView.swift in Sources */,
+				30CB34C42F8CC56500699281 /* AppRouter.swift in Sources */,
+				30CB34C52F8CC56500699281 /* PrivacyWebView.swift in Sources */,
 				746AFFDD2F7FC8CA0076A047 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,7 +518,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 128RiprenstriFekarzor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Riprenstri Fekarzor";
@@ -505,7 +533,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjo.r9pr3nstr8f2k;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -530,7 +558,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 128RiprenstriFekarzor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Riprenstri Fekarzor";
@@ -545,7 +573,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjo.r9pr3nstr8f2k;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
